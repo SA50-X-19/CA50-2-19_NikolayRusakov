@@ -134,12 +134,14 @@ a{
     height: 66px;
     left: 0px;
     top: 743px;
+    border: 2px solid #ff5e00;
+    border-radius: 15px;
 }
 .Survbutton > a {
     position: absolute;
     width: 28px;
     height: 60px;
-    left: 44px;
+    left: 43px;
     top: 22px;
     font-family: Roboto;
     font-style: normal;
