@@ -235,3 +235,21 @@ a{
     background-image: url(333333333.svg);
 }
 
+.blocktxt1 {
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+}
+
+.blocktxt2 {
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+}
+
+.blocktxt3 {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
