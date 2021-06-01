@@ -214,3 +214,24 @@ a{
     transition: 1s;
 }
 
+.block1 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(1111.svg);
+}
+
+.block2 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(222222.svg);
+}
+
+.block3 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(333333333.svg);
+}
+
