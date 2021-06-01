@@ -7,6 +7,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     background: url(Rectangle.svg);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -21,7 +22,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
 
 .header{
@@ -158,3 +159,40 @@ a{
     transition: 0.5s;
 }
 
+.seriy_fon {
+    display: flex;
+    flex-direction: column;
+    height: 1368px;
+    background: #CCCCCC;
+}
+
+.latest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.latesttxt {
+    text-align: center;
+}
+
+.latesttxtup {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.latesttxtdown {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
