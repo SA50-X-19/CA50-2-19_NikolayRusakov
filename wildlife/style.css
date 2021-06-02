@@ -7,6 +7,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     background: url(Rectangle.svg);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -21,12 +22,12 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
 
 .header{
     display: flex;
-    width: 118%;
+    width: 100%;
     height: 75px;
     justify-content: space-evenly;
 }
@@ -158,3 +159,209 @@ a{
     transition: 0.5s;
 }
 
+.seriy_fon {
+    display: flex;
+    flex-direction: column;
+    height: 1368px;
+    background: #CCCCCC;
+}
+
+.latest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.latesttxt {
+    text-align: center;
+}
+
+.latesttxtup {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.latesttxtdown {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+.lenta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.strelkaLeft:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.strelkaRight:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.block1 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(1111.svg);
+}
+
+.block2 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(222222.svg);
+}
+
+.block3 {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-image: url(333333333.svg);
+}
+
+.blocktxt1 {
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+}
+
+.blocktxt2 {
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+}
+
+.blocktxt3 {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+.uptxt {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;  
+    top: 300px;  
+}
+
+.downtxt {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mailtxt {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    display: flex;
+}
+
+.emailtxt {
+    width: 538px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    background: none;
+}
+
+.sendbutton {
+    border: 1px solid #CD6326;
+    background: #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    width: 100px;
+}
+
+.sendbutton:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.Footer{
+    display: flex;
+    height: 360px;
+    justify-content: center;
+}
+
+.Fl{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Flogo{
+    display: flex;
+    width: 215px;
+    align-items: center;
+}
+
+.Flt{
+    font-family: Open Sans;
+    font-size: 32px;
+    color: #F7F7F7;
+}
+
+.Ft{
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #F7F7F7;
+}
+
+.Fsocial{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
