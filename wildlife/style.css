@@ -329,7 +329,7 @@ form {
     transition: 0.5s;
 }
 
-.Footer{
+.footer{
     display: flex;
     height: 360px;
     justify-content: center;
